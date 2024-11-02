@@ -1,6 +1,6 @@
 # Example Build Plugin
 
-This is an example of NPM Package which include a Gradle Plugin which can be used in React Native applications builds.
+This is an example of an NPM package that includes a Gradle plugin, which can be used in React Native application builds.
 
 ## How to add this plugin
 
