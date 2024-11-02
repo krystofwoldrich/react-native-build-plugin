@@ -1,0 +1,10 @@
+pluginManagement {
+    includeBuild(file("../node_modules/@react-native/gradle-plugin").toPath().toRealPath().toAbsolutePath().toString())
+}
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'appBare'
+include ':app'
+includeBuild(file("../node_modules/@react-native/gradle-plugin").toPath().toRealPath().toAbsolutePath().toString())
+
+// Why `includeBuild` uses `absolutPath`? -> https://youtrack.jetbrains.com/issue/IDEA-329756/Importing-symlinked-Gradle-included-build-fails
