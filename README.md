@@ -6,8 +6,8 @@ I created this example for my own learning and to demonstrate how to ship Pre-co
 
 ## Repository structure
 
-- `packages/example-build-plugin`: NPM package of Example React Native Pre-compiled Gradle Plugin
-- `packages/react-native-app`: Plain React Native app demonstrating how to include the plugin
+- [`packages/example-build-plugin`](https://github.com/krystofwoldrich/react-native-build-plugin/tree/main/packages/example-build-plugin): NPM package of Example React Native Pre-compiled Gradle Plugin
+- [`packages/react-native-app`](https://github.com/krystofwoldrich/react-native-build-plugin/tree/main/packages/react-native-app): Plain React Native app demonstrating how to include the plugin
 
 ## How to create a new plugin
 
