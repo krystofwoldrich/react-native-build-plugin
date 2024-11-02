@@ -1,4 +1,7 @@
 {
-  "name": "react-native-build-plugins",
+  "name": "react-native-build-plugin",
+  "workspaces": [
+    "packages/*"
+  ],
   "packageManager": "yarn@4.5.1"
 }

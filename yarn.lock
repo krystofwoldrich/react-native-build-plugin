@@ -5,8 +5,8 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"react-native-build-plugins@workspace:.":
+"react-native-build-plugin@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-build-plugins@workspace:."
+  resolution: "react-native-build-plugin@workspace:."
   languageName: unknown
   linkType: soft
