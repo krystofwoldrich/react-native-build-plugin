@@ -11,3 +11,7 @@
 
 #!.yarn/cache
 .pnp.*
+
+node_modules
+
+.DS_store
